@@ -15,7 +15,7 @@ The dataset that will be worked on is the estimation of obesity levels in indivi
  - Graphing Height vs. Weight scatterplot to prepare for Clustering  
 ## Completing the Cluster Analysis
 - Analyze the best K-number of clusters to determine fit using Elbow method. Automatically chose 7 to see how accurate model can predict each category
-- Build the K-means Cluster
+- Build the K-means Clustering Algorithm
 ## Comparing original Class Label and Clustering to measure Performance
 - Export the result into a column and compare with the original class label
 ## Data Preparation for Supervised Learning
