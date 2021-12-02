@@ -13,16 +13,23 @@ The dataset that will be worked on is the estimation of obesity levels in indivi
  - Create BMI feature based on formula and compare to class label for accuracy
  - Exploring misrepresentation in features that contain categories
  - Graphing Height vs. Weight scatterplot to prepare for Clustering  
-## Completing the Cluster Analysis
+## 3. Completing the Cluster Analysis K = 7
 - Analyze the best K-number of clusters to determine fit using Elbow method. Automatically chose 7 to see how accurate model can predict each category
 - Build the K-means Clustering Algorithm
-## Comparing original Class Label and Clustering to measure Performance
+## 4. Comparing original Class Label and Clustering to measure Performance K = 7
 - Export the result into a column and compare with the original class label
-## Data Preparation for Supervised Learning
+## 5. Completing the Cluster Analysis K = 4
+- Build the K-means Clustering Algorithm
+## 6. Comparing original Class Label and Clustering to measure Performance K = 4
+- Export the result into a column and compare with the original class label
+## 7. Data Preparation for Supervised Learning
  - Convert categorical variables to numerical using dummy variables
-## Model Building for Random Forest to predict Obesity Level
+## 8. Model Building for Random Forest to predict Obesity Level
 - Building the Random Forest Model
-## Performance Measures for Random Forest
+## 9. Performance Measures for Random Forest Models
 - Providing a classification report for various metrics
-## Conclusion
-- A detailed conclusion on why some methods work and some did not. Determine how well the models perform. Identify drawbacks, assumptions, and data that could possibly better the model in the future
+## 10. Check optimal number of n_estimators
+- By doing this we can reduce the training time and to remove unnecessary trees.
+## 11. Tuned Random Forest Model and Performance Measures
+- Building the Random Forest Model with appropriate n_estimators
+- Providing a classification report for various metrics
